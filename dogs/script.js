@@ -9,7 +9,7 @@ class Dog {
     let leftpos = (screen.width - width) / 2;
     let toppos = (screen.height - height) / 2;
     let w = window.open(
-      `Dog.html`,
+      ``,
       `Dog`,
       `height=${height}, width=${width}, left=${leftpos}, top=${toppos}`
     );

@@ -28,7 +28,7 @@ let timetable = [
   ["Ф-ра", "", "", "", "", "", ""],
 ];
 
-let today = new Date(2024, 3, 14).getDay();
+let today = new Date().getDay();
 if (today === 0) {
   today = 7;
 }
